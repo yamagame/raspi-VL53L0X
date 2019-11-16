@@ -1,0 +1,32 @@
+{
+  "name": "@yammagame-org/raspi-vl53l0x",
+  "version": "1.2.0",
+  "description": "This project provides a simplified node module on Raspberry Pi to the ST VL53L0X API (ST Microelectronics).",
+  "keywords": [],
+  "author": "Yamaguchi Hiromitsu <yamagamez@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamagame/raspi-VL53L0X.git"
+  },
+  "files": [
+    "README.md",
+    "VL53L0X.js",
+    "index.js"
+  ],
+  "dependencies": {
+    "raspi-i2c": "^6.2.4"
+  },
+  "bugs": {
+    "url": "https://github.com/yamagame/raspi-VL53L0X/issues"
+  },
+  "homepage": "https://github.com/yamagame/raspi-VL53L0X#readme",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
