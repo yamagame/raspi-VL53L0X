@@ -12,7 +12,8 @@
   "files": [
     "README.md",
     "VL53L0X.js",
-    "index.js"
+    "index.js",
+    "lib/"
   ],
   "dependencies": {
     "raspi-i2c": "^6.2.4"
