@@ -1,5 +1,5 @@
 {
-  "name": "@yammagame-org/raspi-vl53l0x",
+  "name": "@yamagame-org/raspi-vl53l0x",
   "version": "1.2.0",
   "description": "This project provides a simplified node module on Raspberry Pi to the ST VL53L0X API (ST Microelectronics).",
   "keywords": [],
