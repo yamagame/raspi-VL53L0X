@@ -2,7 +2,7 @@ const raspi = require('raspi');
 const I2C = require('raspi-i2c').I2C;
 const VL53L0X = require('../');
 
-function long_range(sensor) {
+async function long_range(sensor) {
     // lower the return signal rate limit (default is 0.25 MCPS)
     sensor.setSignalRateLimit(0.1);
     // increase laser pulse periods (defaults are 14 and 10 PCLKs)
@@ -26,7 +26,7 @@ raspi.init(async () => {
   if (await sensor.init()) {
     console.log('init OK');
 
-    long_range(sensor);
+    await long_range(sensor);
     high_speed(sensor); // or high_accuracy(sensor);
   
     while (true) {
